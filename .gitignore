@@ -1,0 +1,28 @@
+# Environment & secrets
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+.venv/
+
+# Database (data lokal, tidak perlu ikut ke repo)
+data/*.db
+data/*.sqlite3
+
+# Gambar testing (bisa berisi data pribadi)
+testing/images/
+testing/test_results.csv
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
